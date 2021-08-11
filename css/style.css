@@ -6,7 +6,7 @@ html, body {
 }
 
 body {
-  background: url(../images/backgrounds/architecture.jpg) center no-repeat;
+  background-image: linear-gradient(to right, green, white);
   background-size: cover;
   background-attachment: fixed;
   font-family: Helvetica, Arial, sans-serif;
@@ -21,12 +21,13 @@ body {
 
 #content {
   padding: 20px;
-  background: rgba(255,255,255,.85);
+  background: linear-gradient(to right, brown, goldenrod);
 }
 
 h1, h2 {
   font-family: 'Gabriela', serif;
-  color: #fff;
+  color: brown;
+  text-align: center;
 }
 
 h1 {
@@ -36,7 +37,7 @@ h1 {
 
 h2 {
   font-size: 1.5em;
-  margin-top: .5em;
+  margin-top: .7em;
 }
 
 h3 {
